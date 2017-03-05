@@ -12,6 +12,8 @@ import UIKit
 class LoginViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        pickerController.delegate = self
     }
     
     @IBAction func loginTapped(_ sender: Any) {
